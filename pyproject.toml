@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "visualfinanceagent"
+version = "0.1.0"
+description = "Understand visually long finance pdfs and reports"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+groq = "^0.11.0"
+openai = "^1.51.0"
+toolhouse = "^1.2.1"
+python-dotenv = "^1.0.1"
+byaldi = {git = "git@github.com:Athe-kunal/byaldi.git"}
+ipykernel = "^6.29.5"
+pypdf2 = "^3.0.1"
+faiss-cpu = "^1.8.0.post1"
+langchain = "^0.3.2"
+langchain-community = "^0.3.1"
+langchain-huggingface = "^0.1.0"
+einops = "^0.8.0"
+dspy-ai = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
